@@ -69,6 +69,16 @@
 				"type": "GeoJSONDataSource",
 				"url": "https://raw.githubusercontent.com/noorbakerally/EGC2017ConfigurationFile/master/SECTEURS_EPSG4326.json"
 			}
-		}
+		},
+		"Grenoble Velo": { 
+		     "type": "LayerConfig",
+		      "name": "Vélos Grenoble",
+		       "initialShow":false,
+		       "description": "Ways of Bikes around Grenoble",
+		       "dataSource": {
+		               "type": "GeoJSONDataSource",
+		                "url":"https://raw.githubusercontent.com/gatemezing/EGC2017ConfigurationFile/master/velo.geojson"
+		       }
+		  }
 	}
 }
